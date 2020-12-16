@@ -1,6 +1,6 @@
 {
-  "name": "hot-shots",
-  "description": "Node.js client for StatsD, DogStatsD, and Telegraf",
+  "name": "@posthog/hot-shots",
+  "description": "Node.js client for StatsD, DogStatsD, and Telegraf - WITHOUT unix-dgram",
   "version": "8.2.1",
   "author": "Steve Ivy",
   "types": "./types.d.ts",
@@ -34,9 +34,7 @@
     "lint": "eslint lib/**/*.js test/**/*.js",
     "pretest": "npm run lint"
   },
-  "optionalDependencies": {
-    "unix-dgram": "2.0.x"
-  },
+  "optionalDependencies": {},
   "devDependencies": {
     "eslint": "5.9.x",
     "mocha": "6.2.x",
